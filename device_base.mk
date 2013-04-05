@@ -190,6 +190,9 @@ include frameworks/native/build/phone-hdpi-512-dalvik-heap.mk
 PRODUCT_TAGS += dalvik.gc.type-precise
 
 PRODUCT_COPY_FILES += \
-	device/samsung/aries-common/updater.sh:updater.sh
+    device/samsung/aries-common/updater.sh:updater.sh
+
+PRODUCT_COPY_FILES += \
+    device/samsung/aries-common/69cpuinit:system/etc/init.d/69cpuinit
 
 $(call inherit-product-if-exists, hardware/broadcom/wlan/bcmdhd/firmware/bcm4329/device-bcm.mk)
