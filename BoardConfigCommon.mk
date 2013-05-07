@@ -39,7 +39,7 @@ TARGET_BOOTLOADER_BOARD_NAME := aries
 BOARD_MOBILEDATA_INTERFACE_NAME = "pdp0"
 
 # Kernel Source
-TARGET_KERNEL_SOURCE := kernel/samsung/aries
+TARGET_KERNEL_SOURCE := kernel/samsung/samsung-kernel-aries
 TARGET_KERNEL_CUSTOM_RAMDISK := true
 TARGET_KERNEL_SUPPORTS_HUGEMEM := true
 
