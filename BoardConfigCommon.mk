@@ -38,7 +38,8 @@ TARGET_BOOTLOADER_BOARD_NAME := aries
 
 BOARD_MOBILEDATA_INTERFACE_NAME = "pdp0"
 
-# Kernel Source
+ # Inline kernel building
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.7/bin/arm-eabi-
 TARGET_KERNEL_SOURCE := kernel/samsung/samsung-kernel-aries
 TARGET_KERNEL_CUSTOM_RAMDISK := true
 TARGET_KERNEL_SUPPORTS_HUGEMEM := true
