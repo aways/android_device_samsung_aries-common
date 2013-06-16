@@ -43,8 +43,6 @@ TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.6/bin/arm-eabi-
 
 # Kernel Source
 TARGET_KERNEL_SOURCE := kernel/samsung/aries
-TARGET_KERNEL_CUSTOM_RAMDISK := true
-TARGET_KERNEL_SUPPORTS_HUGEMEM := true
 
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/aries-common
